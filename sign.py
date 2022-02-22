@@ -110,6 +110,7 @@ def openTask():
                 return
             getActionID(r.text,title)
 
+login() # 登录
 count = 0
 while True:
     openTask()
